@@ -8,7 +8,7 @@ while os.path.exists("output%s.wav" % i):
 
 
 fs = 44100  # Sample rate
-seconds = 2  # Duration of recording
+seconds = 20  # Duration of recording
 
 myrecording = sd.rec(int(seconds * fs), samplerate=fs, channels=2)
 sd.wait()  # Wait until recording is finished
